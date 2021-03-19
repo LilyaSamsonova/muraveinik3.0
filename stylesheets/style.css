@@ -1,0 +1,6 @@
+@import 'reset.css';
+@import "animation.css";
+@font-face {
+font-family: 'Jost';
+src: url("../fonts/Jost-Bold.otf");
+}
