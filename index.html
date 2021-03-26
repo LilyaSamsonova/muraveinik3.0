@@ -17,7 +17,7 @@
       body{
         width: 100%;
         margin: 0;
-background: black;
+        background: black;
         display: block;
         position: relative;
       }
@@ -36,12 +36,13 @@ background: black;
       }
       html{
         position: relative;
-        height: 100%;
+        height: 100vw;
         width: 100%;
       }
       .wrapper {
               position: relative;
-              width: 100%;
+              width: 100vw;
+              height: 100vh;
               background: #1F009D;
               /* background: black; */
               /* opacity: 70%; */
@@ -183,17 +184,43 @@ background: black;
 .light {
     width: 16%;
     height: 108%;
-    display: inline-block;
+
     position: absolute;
     left: 83%;
     top: -8%;
     background: url("images/свет.svg");
     opacity: 1;
-    visibility: visible;
-    animation: light1 .3s ;
-    animation-delay: 2s;
+
+    animation: light1 .7s infinite ease-in-out;
+    animation-delay: .5s;
   }
-  @keyframes light1 {
+  /* .light2 {
+      width: 16%;
+      height: 108%;
+      display: inline-block;
+      position: absolute;
+      left: 60%;
+      top: -8%;
+      background: url("images/свет.svg");
+      opacity: 1;
+      visibility: visible;
+      animation: light3 .7s infinite ease-in-out;
+      animation-delay: 2s;
+    } */
+    /* .light3 {
+        width: 16%;
+        height: 108%;
+        display: inline-block;
+        position: absolute;
+        left: 40%;
+        top: -8%;
+        background: url("images/свет1.svg");
+        opacity: 1;
+        visibility: visible;
+        animation: light4 .7s infinite ease-in-out;
+        animation-delay: 2s;
+      } */
+  /* @keyframes light1 {
     0%, 99% {
       height: 0%;
     }
@@ -201,19 +228,90 @@ background: black;
     100% {
       height: 112%;
     }
+  } */
+  @keyframes light1 {
+    0% {transform: rotate(0deg);
+    height: 112%;}
+    10% {
+    opacity: 0%;}
+    20% {transform: rotate(20deg);
+    left: 60%;
+    height: 112%;}
+    30% {opacity: 0%;
+    height: 112%;}
+    40% {transform: rotate(30deg);
+    left: 40%;
+    height: 112%;}
+  }
+  /* @keyframes light3 {
+    0% {transform: rotate(0deg);
+    height: 112%;}
+    10% {
+    opacity: 0%;}
+    20% {transform: rotate(20deg);
+    left: 30%;
+    height: 112%;}
+    30% {opacity: 0%;
+    height: 112%;}
+    40% {transform: rotate(30deg);
+    left: 60%;
+    height: 112%;}
+  }
+  @keyframes light4 {
+    10% {opacity: 0%;}
+    30% {opacity: 0%;}
+    50% {opacity: 0%;}
+  }
+  @keyframes light4 {
+    0% {transform: rotate(0deg);
+    height: 112%;}
+    10% {
+    opacity: 0%;}
+    20% {transform: rotate(-20deg);
+    left: 30%;
+    height: 112%;}
+    30% {opacity: 0%;
+    height: 112%;}
+    40% {transform: rotate(-30deg);
+    left: 50%;
+    height: 112%;}
+    50% {opacity: 0%;
+    height: 112%;}
+    60% {transform: rotate(-20deg);
+    left: 30%;
+    height: 112%;}
+    70% {opacity: 0%;
+    height: 112%;}
+    80% {transform: rotate(-30deg);
+    left: 50%;
+    height: 112%;}
+  } */
+  @keyframes light2 {
+    0% {transform: rotate(0deg);
+    height: 112%;}
+    10% {opacity: 0%;
+    height: 112%;}
+    20% {transform: rotate(-20deg);
+    left: 70%;
+    height: 112%;}
+    30% {opacity: 0%;
+    height: 112%;}
+    40% {transform: rotate(-30deg);
+    left: 40%;
+    height: 112%;}
   }
   .light1 {
       width: 16%;
       height: 108%;
-      display: inline-block;
+
       position: absolute;
       left: 20%;
       top: -8%;
       background: url("images/свет1.svg");
       opacity: 1;
-      visibility: visible;
-      animation: light1 .3s ;
-      animation-delay: 3s;
+
+      animation: light2 .7s infinite ease-in-out;
+      animation-delay: .5s;
     }
 .star_1{
   display: inline-block;
@@ -221,7 +319,7 @@ background: black;
   left: 30%;
   top: 10%;
   opacity: 100%;
-  animation: star_2 5s infinite ease-in-out;;
+  animation: star_2 5s infinite ease-in-out;
   animation-delay: .4s;
 
 }
@@ -333,7 +431,7 @@ background: black;
  .star_9:hover {
    opacity: 0;
  }
- .eyel {
+ /* .eyel {
 position: absolute;
 width: 1.2%;
 height: 2%;
@@ -350,11 +448,371 @@ left: 61.5%;
 top: 32.7%;
 background-color: #075CFF;
 border-radius: 100%;
+} */
+.muravei {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 89%;
+      top: 20%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: .4s;
+      animation-play-state: running;
+    }
+    .muravei:hover {
+     animation-play-state: paused;
+   }
+.muravei1 {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 26%;
+      top: 15%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: .9s;
+      animation-play-state: running;
+    }
+    .muravei1:hover {
+     animation-play-state: paused;
+   }
+.muravei2 {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 42%;
+      top: 7%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: 1s;
+      animation-play-state: running;
+    }
+    .muravei2:hover {
+     animation-play-state: paused;
+   }
+.muravei3 {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 59%;
+      top: 17%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: 2s;
+      animation-play-state: running;
+    }
+    .muravei3:hover {
+     animation-play-state: paused;
+   }
+.muravei4 {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 80%;
+      top: 6%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: .7s;
+      animation-play-state: running;
+    }
+    .muravei4:hover {
+     animation-play-state: paused;
+   }
+.muravei5 {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 26%;
+      top: 70%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: 2s;
+      animation-play-state: running;
+    }
+    .muravei5:hover {
+     animation-play-state: paused;
+    }
+.muravei6 {
+      width: 91px;
+      height: 110px;
+      position: absolute;
+      left: 40%;
+      top: 60%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: .1s;
+      animation-play-state: running;
+    }
+    .none {
+      display: none;
+    }
+    .block {
+      display: block;
+    }
+    .muravei6:hover {
+     animation-play-state: paused;
+   }
+ .muravei7 {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 59%;
+      top: 67%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: 1s;
+      animation-play-state: running;
+    }
+    .muravei7:hover {
+     animation-play-state: paused;
+   }
+.muravei8 {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 72%;
+      top: 75%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: .6s;
+      animation-play-state: running;
+      }
+      .muravei8:hover {
+       animation-play-state: paused;
+     }
+.muravei9 {
+      width: 91px;
+      height: 110px;
+
+      position: absolute;
+      left: 87%;
+      top: 70%;
+      background: url("images/спрайтзнак.svg");
+      animation: muravei .6s steps(1) alternate infinite;
+      animation-delay: .4s;
+      animation-play-state: running;
+    }
+     .muravei9:hover {
+      animation-play-state: paused;
+    }
+              @keyframes muravei {
+             0% {background-position: 0 top;}
+             25% {background-position: -91px top;}
+             50% {background-position: -182px top;}
+             75% {background-position: -273px top;}
+             100% {background-position: -364px top;}
+           }
+           .text h1{
+
+             top: 35%;
+             left: 25%;
+             width: 70%;
+             font-size: 44px;
+             line-height: 113.9%;
+             position: absolute;
+
+             color: white;
+             font-family: "Jost";
+             font-style: bold;
+             text-transform: uppercase
+             }
+             .text p{
+
+               top: 90%;
+               left: 25%;
+               width: 55%;
+               font-size: 20px;
+               line-height: 107.4%;
+               position: absolute;
+
+               color: white;
+               font-family: "Jost";
+               font-style: bold;
+               text-transform: uppercase
+               }
+               .blurr {
+                 width: 90%;
+                 height: 100%;
+               left: 19.85%;
+               top: 0%;
+               /* background-color: #1F009D; */
+               background-image: url("images/blurr.png");
+               position: absolute;
 }
-    </style>
+.text1 {
+  background-image: url("images/текст1.svg");
+  position: absolute;
+  left: 23%;
+  top: 15%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+}
+
+.text2 {
+  background-image: url("images/текст2.svg");
+  position: absolute;
+  left: 75%;
+  top: 25%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+.text3 {
+  background-image: url("images/текст3.svg");
+  position: absolute;
+  left: 55%;
+  top: 40%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+.text4 {
+  background-image: url("images/текст4.svg");
+  position: absolute;
+  left: 30%;
+  top: 65%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.text5 {
+  background-image: url("images/текст5.svg");
+  position: absolute;
+  left: 75%;
+  top: 60%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+.text6 {
+  background-image: url("images/текст6.svg");
+  position: absolute;
+  left: 53%;
+  top: 60%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+.text7 {
+  background-image: url("images/текст7.svg");
+  position: absolute;
+  left: 34%;
+  top: 35%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+}
+.text8 {
+  background-image: url("images/текст8.svg");
+  position: absolute;
+  left: 68%;
+  top: 48%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+.text9 {
+  background-image: url("images/текст9.svg");
+  position: absolute;
+  left: 45%;
+  top: 15%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
+}
+.text10 {
+  background-image: url("images/текст10.svg");
+  position: absolute;
+  left: 24%;
+  top: 54%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+.text11 {
+  background-image: url("images/текст11.svg");
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 5.5s;
+  animation-fill-mode: forwards;
+}
+.text12 {
+  background-image: url("images/текст12.svg");
+  position: absolute;
+  left: 64%;
+  top: 25%;
+  height: 28.19%;
+  width: 21.18%;
+  opacity: 0%;
+  animation: textt 1s ;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+@keyframes textt {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+  </style>
     <script type="text/javascript">
-
-
+    $(document).ready(function(){
+    $(".btinfo").click(function(){
+      $(".muravei, .muravei1, .muravei2, .muravei3, .muravei4, .muravei5, .muravei6, .muravei7, .muravei8, .muravei9, .text, .blurr").toggleClass("block");
+    });
+    $(".bt2").click(function(){
+      $(".light, .light1").toggleClass("block");
+    });
+    $(".bttext").click(function(){
+      $(".text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12").toggleClass("block");
+    });
+    });
+    $( function() {
+        $( ".text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12" ).draggable();
+      } );
 
 
     </script>
@@ -399,14 +857,16 @@ border-radius: 100%;
                 <div class="eyel"></div>
                 <div class="eyer"></div>
               </div>
-              <div class="eye">
+              <!-- <div class="eye">
                 <div class="eyel"></div>
                 <div class="eyer"></div>
-              </div>
+              </div> -->
               <div class="eyel"></div>
               <div class="eyer"></div>
-               <div class="light"></div>
-               <div class="light1"><img src="images/свет1.svg" alt=""></div>
+               <div class="light none"></div>
+               <div class="light1 none"></div>
+               <div class="light2"></div>
+               <div class="light3"></div>
                <div class="star_1"><img src="images/star_1.svg" alt=""></div>
                <div class="star_2"><img src="images/star_2.svg" alt=""></div>
                <div class="star_3"><img src="images/star_3.svg" alt=""></div>
@@ -416,6 +876,38 @@ border-radius: 100%;
                <div class="star_7"><img src="images/star_3.svg" alt=""></div>
                <div class="star_8"><img src="images/star_3.svg" alt=""></div>
                <div class="star_9"><img src="images/star_1.svg" alt=""></div>
+               </div>
+               <div class="fourth">
+                 <div class="blurr none"></div>
+                 <div class="muravei none"></div>
+                 <div class="muravei1 none"></div>
+                 <div class="muravei2 none"></div>
+                 <div class="muravei3 none"></div>
+                 <div class="muravei4 none"></div>
+                 <div class="muravei5 none"></div>
+                 <div class="muravei6 none"></div>
+                 <div class="muravei7 none"></div>
+                 <div class="muravei8 none"></div>
+                 <div class="muravei9 none"></div>
+                 <div class="text none">
+                   <h1>ты наткнулся на веб-плакат ночного клуба «муравейник», здесь ты можешь прочуствовать атмосферу клуба, потусить и даже потанцевать.</h1>
+                   <p>всё, что тебе нужно, находится на пульте управления. там </br>ты можешь увидеть разные кнопочки, не бойся, тыкай на все.</p>
+                 </div>
+
+               </div>
+               <div class="fifth">
+                 <div class="text1 none"></div>
+                 <div class="text2 none"></div>
+                 <div class="text3 none"></div>
+                 <div class="text4 none"></div>
+                 <div class="text5 none"></div>
+                 <div class="text6 none"></div>
+                 <div class="text7 none"></div>
+                 <div class="text8 none"></div>
+                 <div class="text9 none"></div>
+                 <div class="text10 none"></div>
+                 <div class="text11 none"></div>
+                 <div class="text12 none" ></div>
                </div>
             </div>
           </div>
