@@ -17,9 +17,8 @@
       body{
         width: 100%;
         margin: 0;
+        overflow-x: hidden;
         background: black;
-        display: block;
-        position: relative;
       }
       /* body::before {
         content: "";
@@ -35,8 +34,8 @@
         opacity: .5; */
       }
       html{
-        position: relative;
-        height: 100vw;
+        overflow-x: hidden;
+        background: black;
         width: 100%;
       }
       .wrapper {
@@ -44,15 +43,14 @@
               width: 100vw;
               height: 100vh;
               background: #1F009D;
+              overflow: hidden;
               /* background: black; */
               /* opacity: 70%; */
             }
             .sootnosheniye {
               position: relative;
-              padding-bottom: 58%;
-
-
-            }
+              padding-bottom: 62.5%;
+}
             .content {
               position: absolute;
               top: 0; bottom: 0; left: 0; right: 0;
@@ -63,15 +61,17 @@
      .remotecontroller {
        position: relative;
        background: url( 'images/пульт.svg');
-              width: 24%;
-              height: 100%;
-          opacity: 100%;
+       width: 19.8645833%;
+       height: 100%;
+       opacity: 100%;
+
+
      }
      .bt1 {
-       width: 25.2%;
-       height: 10.4%;
-     left: 10%;
-     top: 42%;
+     width: 30.4142632%;
+     height: 9.6666667%;
+     left: 14%;
+     top: 39%;
      position: absolute;
      display: inline-block;
      background: url("images/bt1.svg");
@@ -98,64 +98,64 @@
 
 
      .bt2 {
-       width: 25.2%;
-       height: 10.4%;
-     left: 48%;
-     top: 42%;
+       width: 30.4142632%;
+       height: 9.6666667%;
+     left: 54%;
+     top: 39%;
      position: absolute;
      display: inline-block;
      background: url("images/bt2.svg");
      }
      .bthead {
-       width: 25.2%;
-       height: 10.4%;
-     left: 10%;
-     top: 57.2%;
+       width: 30.4142632%;
+       height: 9.6666667%;
+     left: 14%;
+     top: 53.2%;
      position: absolute;
      display: inline-block;
      background: url("images/bthead.svg");
      }
      .btarm {
-       width: 25.2%;
-       height: 10.4%;
-     left: 48%;
-     top: 57.2%;
+       width: 30.4142632%;
+       height: 9.6666667%;
+     left: 54%;
+     top: 53.2%;
      position: absolute;
      display: inline-block;
      background: url("images/btarm.svg");
      }
      .btleg {
-       width: 25.2%;
-       height: 10.4%;
-     left: 10%;
-     top: 72%;
+       width: 30.4142632%;
+       height: 9.6666667%;
+     left: 14%;
+     top: 65.6%;
      position: absolute;
      display: inline-block;
      background: url("images/btleg.svg");
      }
      .bthand{
-       width: 25.2%;
-       height: 10.4%;
-     left: 48%;
-     top: 72%;
+       width: 30.4142632%;
+       height: 9.6666667%;
+     left: 54%;
+     top: 65.6%;
      position: absolute;
      display: inline-block;
      background: url("images/bthand.svg");
      }
      .bttext {
-       width: 25.2%;
-       height: 10.4%;
-     left: 10%;
-     top: 87.2%;
+       width: 30.4142632%;
+       height: 9.6666667%;
+     left: 14%;
+     top: 78%;
      position: absolute;
      display: inline-block;
      background: url("images/bttext.svg");
      }
      .btinfo{
-       width: 25.2%;
-       height: 10.4%;
-     left: 48%;
-     top: 87.2%;
+       width: 30.4142632%;
+       height: 9.6666667%;
+     left: 54%;
+     top: 78%;
      position: absolute;
      display: inline-block;
      background: url("images/btinfo.svg");
@@ -387,7 +387,7 @@
    display: inline-block;
    position: absolute;
    left: 30%;
-   top: 80%;
+   top: 78%;
    opacity: 100%;
    animation: star_2 5s infinite ease-in-out;;
    animation-delay: 1s;
@@ -423,7 +423,7 @@
    display: inline-block;
    position: absolute;
    left: 90%;
-   top: 80%;
+   top: 78%;
    opacity: 100%;
    animation: star_2 5s infinite ease-in-out;;
    animation-delay: 4s;
@@ -530,7 +530,7 @@ border-radius: 100%;
 
       position: absolute;
       left: 26%;
-      top: 70%;
+      top: 65%;
       background: url("images/спрайтзнак.svg");
       animation: muravei .6s steps(1) alternate infinite;
       animation-delay: 2s;
@@ -564,8 +564,8 @@ border-radius: 100%;
       height: 110px;
 
       position: absolute;
-      left: 59%;
-      top: 67%;
+      left: 55%;
+      top: 65%;
       background: url("images/спрайтзнак.svg");
       animation: muravei .6s steps(1) alternate infinite;
       animation-delay: 1s;
@@ -580,7 +580,7 @@ border-radius: 100%;
 
       position: absolute;
       left: 72%;
-      top: 75%;
+      top: 68%;
       background: url("images/спрайтзнак.svg");
       animation: muravei .6s steps(1) alternate infinite;
       animation-delay: .6s;
@@ -595,7 +595,7 @@ border-radius: 100%;
 
       position: absolute;
       left: 87%;
-      top: 70%;
+      top: 65%;
       background: url("images/спрайтзнак.svg");
       animation: muravei .6s steps(1) alternate infinite;
       animation-delay: .4s;
@@ -627,7 +627,7 @@ border-radius: 100%;
              }
              .text p{
 
-               top: 90%;
+               top: 82%;
                left: 25%;
                width: 55%;
                font-size: 20px;
@@ -801,13 +801,20 @@ border-radius: 100%;
     <script type="text/javascript">
     $(document).ready(function(){
     $(".btinfo").click(function(){
-      $(".muravei, .muravei1, .muravei2, .muravei3, .muravei4, .muravei5, .muravei6, .muravei7, .muravei8, .muravei9, .text, .blurr").toggleClass("block");
+      if (!$(this).hasClass("stopper")) {
+        $(".muravei, .muravei1, .muravei2, .muravei3, .muravei4, .muravei5, .muravei6, .muravei7, .muravei8, .muravei9, .text, .blurr").toggleClass("block");
+        $(".bttext").toggleClass("stopper");
+      }
     });
     $(".bt2").click(function(){
       $(".light, .light1").toggleClass("block");
     });
     $(".bttext").click(function(){
-      $(".text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12").toggleClass("block");
+      if (!$(this).hasClass("stopper")) {
+        $(".text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12").toggleClass("block");
+        $(".btinfo").toggleClass("stopper");
+      }
+
     });
     });
     $( function() {
@@ -831,7 +838,7 @@ border-radius: 100%;
               <div class="bthand"></div>
               <div class="bttext"></div>
               <div class="btinfo"></div>
-              </div>
+             </div>
               <div class="second">
                 <div class="round1_1"><img src="images/r1_1.svg" alt=""></div>
                 <div class="round1_2"><img src="images/r1_2.svg" alt=""></div>
