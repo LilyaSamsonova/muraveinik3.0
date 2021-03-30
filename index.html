@@ -2,12 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <!-- <meta name="viewport" content="width=device-width"> -->
     <title></title>
 
     <link rel="stylesheet" href="stylesheets/style.css">
-    <link rel="stylesheet" href="stylesheets/responsive.css">
-    <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <!-- <link rel="stylesheet" href="stylesheets/responsive.css"> -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="js\jquery-3.5.1.js" charset="utf-8"></script>
@@ -213,8 +213,8 @@
                    background-size: cover;
                  }
                  .head {
-                   width: 720px;
-                   height: 800px;
+                   width: 50%;
+                   height: 88.8888889%;
                      display: inline-block;
                      position: absolute;
                      left: 35%;
@@ -897,6 +897,7 @@ border-radius: 100%;
 }
   </style>
     <script type="text/javascript">
+    
     $(document).ready(function(){
     $(".btinfo").click(function(){
       if (!$(this).hasClass("stopper")) {
@@ -918,10 +919,6 @@ border-radius: 100%;
     $( function() {
         $( ".text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12" ).draggable();
       } );
-$(".bthead").click(function(){
-$(".head").css('backgroundPosition': '-720px top')
-});
-
     </script>
 
   </head>
