@@ -44,7 +44,7 @@ html{
       }
 .remotecontroller {
  position: relative;
- display: inline-block;
+ display: block;
  background: url( '../images/пульт.svg');
  background-size: contain;
  background-repeat: no-repeat;
@@ -60,7 +60,7 @@ height: 9.6666667%;
 left: 10%;
 top: 39%;
 position: absolute;
-display: inline-block;
+display: block;
 background: url("../images/bt1.svg");
 background-size: contain;
 background-repeat: no-repeat;
@@ -472,7 +472,7 @@ opacity: 0;
 .star_8{
 display: inline-block;
 position: absolute;
-left: 40%;
+left: 36%;
 top: 40%;
 opacity: 100%;
 animation: star_2 5s infinite ease-in-out;;
