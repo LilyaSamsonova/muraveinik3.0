@@ -5,8 +5,56 @@ function activateFilterAnimation() {
 }
 
 $(".bt1").on("click", activateFilterAnimation);
-})
 
+
+let arm1 = 0;
+
+  $(".btarm").click(function () {
+    if (arm1 < 5) {
+      arm1++;
+    } else {
+      arm1 = 0;
+    }
+    $(".arm").css('background-position', 100 * arm1 + "% 0");
+  });
+
+  let head = 0;
+
+    $(".bthead").click(function () {
+      if (head < 5) {
+        head++;
+      } else {
+        head = 0;
+      }
+      $(".head").css('background-position', 100 * head + "% 0");
+    });
+
+    let hand = 0;
+
+      $(".bthand").click(function () {
+        if (hand < 5) {
+          hand++;
+        } else {
+          hand = 0;
+        }
+        $(".hand").css('background-position', 100 * hand + "% 0");
+      });
+
+      let leg = 0;
+
+        $(".btleg").click(function () {
+          if (leg < 5) {
+            leg++;
+          } else {
+            leg = 0;
+          }
+          $(".leg").css('background-position', 100 * leg + "% 0");
+        });
+
+        $( function() {
+            $( ".text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12" ).draggable();
+          } );
+});
 // $(document).ready(function(){
 //
 // function activateFilterAnimation() {
