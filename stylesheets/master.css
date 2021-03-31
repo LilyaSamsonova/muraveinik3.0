@@ -243,20 +243,35 @@ background-size: contain;
                    }
 
 
-.light {
-width: 16%;
-height: 108%;
+                   .light {
+                   width: 16%;
+                   height: 108%;
 
-position: absolute;
-left: 83%;
-top: -8%;
-background: url("../images/свет.svg");
-opacity: 1;
+                   position: absolute;
+                   left: 83%;
+                   top: -8%;
+                   background: url("../images/свет.svg");
+                   opacity: 1;
 
-animation: light1 .7s infinite ease-in-out;
-animation-delay: .5s;
-}
-/* .light2 {
+                   animation: light1 .7s infinite ease-in-out;
+                   animation-delay: .5s;
+                   }
+                   @keyframes light1 {
+                   0% {transform: rotate(0deg);
+                   height: 112%;}
+                   10% {
+                   opacity: 0%;}
+                   20% {transform: rotate(20deg);
+                   left: 60%;
+                   height: 112%;}
+                   30% {opacity: 0%;
+                   height: 112%;}
+                   40% {transform: rotate(30deg);
+                   left: 40%;
+                   height: 112%;}
+                   }
+
+                   /* .light2 {
 width: 16%;
 height: 108%;
 display: inline-block;
@@ -291,20 +306,7 @@ height: 0%;
 height: 112%;
 }
 } */
-@keyframes light1 {
-0% {transform: rotate(0deg);
-height: 112%;}
-10% {
-opacity: 0%;}
-20% {transform: rotate(20deg);
-left: 60%;
-height: 112%;}
-30% {opacity: 0%;
-height: 112%;}
-40% {transform: rotate(30deg);
-left: 40%;
-height: 112%;}
-}
+
 /* @keyframes light3 {
 0% {transform: rotate(0deg);
 height: 112%;}
@@ -364,7 +366,7 @@ height: 112%;}
 }
 .light1 {
 width: 16%;
-height: 108%;
+height: 112%;
 
 position: absolute;
 left: 20%;
