@@ -2,3 +2,119 @@
 
   .text {font-size: 34px;}
 }
+@media all and (max-width: 1792px){}
+  @media all and (max-width: 1680px)and (min-width:1050px){}
+    @media all and (max-width: 1366px) and (min-width:768px){
+      .star_9 {top: 75%;}
+      .star_6 {top: 74%;}
+    }
+@media all and (max-width: 1280px) and (min-width:800px){}
+  @media all and (max-width: 1024px)  and (orientation:landscape) {
+    .remotecontroller {
+      width: 24%;}
+    .bt1 {left: 15%;}
+    .bt2 {left: 55%;}
+    .bthead {left: 15%;}
+    .btarm {left: 55%;}
+    .bthand {left: 15%;}
+    .btleg {left: 55%;}
+    .bttext {left: 15%;}
+    .btinfo {left: 55%;}
+    .round6_1 {left: 28%;}
+    .round6_2 {left: 30%;}
+    .round6_3 {left: 28%;}
+    @keyframes bl6 {
+       from {
+         transform: scale(1);
+       }
+       30% {
+         left: 27%; top: 10%;
+       }
+       50% {
+         transform: scale(0.6);
+       }
+       70% {
+         left: 50%; top: 40%;
+       }
+       to {
+         transform: scale(1);
+     }
+     }
+     .round1_1 {left: 28%;}
+     .round1_2 {left: 30%;}
+     .round1_3 {left: 28%;}
+     .round1_4 {left: 28%;}
+     .round4_1 {left: 30%;top: 58%;}
+     .round4_2 {left: 32%;top: 59%;}
+     .round4_3 {left: 34%;top: 62%;}
+     @keyframes bl4 {
+        from {
+          transform: scale(1);
+        }
+        50% {
+          left: 40%;
+          top: 30%;
+          }
+          {
+          transform: scale(0.8);
+        }
+        70% {
+          left: 40%;
+          top: 70%;
+        }
+        to {
+          transform: scale(1);
+      }
+      }
+.ant {
+        width: 47%;
+        height: 84%;
+        top: 15%;
+        left: 38%;
+  }
+.head {
+  width: 47%;
+  height: 84%;
+    top: 15%;
+    left: 38%;
+}
+.arm {
+  width: 47%;
+  height: 84%;
+  top: 15%;
+  left: 38%;
+}
+.hand {
+  width: 47%;
+  height: 84%;
+  top: 15%;
+  left: 38%;
+}
+.leg {
+  width: 47%;
+  height: 84%;
+  top: 15%;
+  left: 38%;
+}
+.star_6 {top: 95%; left: 35%;}
+.star_9 {top: 93%;}
+.star_5 {left: 30%; top: 58%;}
+.text1 {left: 25%;top: 10%;}
+.text4 {top: 80%;}
+.text5 {top: 86%;}
+.text6 {top: 70%;}
+.text8 {top: 55%;}
+.text2 {left: 78%; top: 30%;}
+.text h1 {font-size: 34px; top: 40%; left: 27%;}
+.text p {font-size: 14px; top: 100%; left: 27%;}
+.blurr {width: 77%; left: 23.75%;}
+.muravei5 { top: 80%;}
+.muravei9 { top: 88%;}
+.muravei6 { top: 79%;}
+.muravei7 { top: 75%;}
+.muravei8 { top: 80%;}
+.light {width: 22%; height: 130%; top: 0%; left: 78%;}
+.light1 {width: 22%; height: 130%; top: -3%; left: 24%;}
+    @media all and (max-width:1024px) and (orientation:portrait) {
+      .remotecontroller {display: none;}
+    }
