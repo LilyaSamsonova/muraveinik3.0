@@ -1,8 +1,9 @@
 @import "reset.css";
-@import "responsive.css";
 @import "animation.css";
+@import "master.css";
 @font-face {
   font-family: "Jost";
   font-weight: bold;
   src: url(../fonts/Jost-Bold.otf) format('opentype');
 }
+@import "responsive.css";
