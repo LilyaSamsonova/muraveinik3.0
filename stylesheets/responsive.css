@@ -10,6 +10,7 @@
     }
 @media all and (max-width: 1280px) and (min-width:800px){}
   @media all and (max-width: 1024px)  and (orientation:landscape) {
+
     .remotecontroller {
       width: 24%;}
     .bt1 {left: 15%;}
@@ -116,5 +117,35 @@
 .light {width: 22%; height: 130%; top: 0%; left: 78%;}
 .light1 {width: 22%; height: 130%; top: -3%; left: 24%;}
     @media all and (max-width:1024px) and (orientation:portrait) {
-      .remotecontroller {display: none;}
+      
+      .ant {
+              width: 47%;
+              height: 84%;
+              top: 30%;
+              left: 38%;
+        }
+      .head {
+        width: 47%;
+        height: 84%;
+          top: 30%;
+          left: 38%;
+      }
+      .arm {
+        width: 47%;
+        height: 84%;
+        top: 30%;
+        left: 38%;
+      }
+      .hand {
+        width: 47%;
+        height: 84%;
+        top: 30%;
+        left: 38%;
+      }
+      .leg {
+        width: 47%;
+        height: 84%;
+        top: 30%;
+        left: 38%;
+      }
     }
