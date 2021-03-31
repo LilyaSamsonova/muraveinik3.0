@@ -4,7 +4,7 @@
 }
 @media all and (max-width: 1792px){}
   @media all and (max-width: 1680px)and (min-width:1050px){
-    .text p { top: 86%;}
+    
   }
     @media all and (max-width: 1366px) and (min-width:768px){
       .star_9 {top: 75%;}
