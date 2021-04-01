@@ -1,14 +1,129 @@
-@media all and (max-width: 1366px) and (min-width:768px){
-
-  .text {font-size: 34px;}
-}
 @media all and (max-width: 1792px){}
   @media all and (max-width: 1680px)and (min-width:1050px){
-    
+
   }
     @media all and (max-width: 1366px) and (min-width:768px){
-      .star_9 {top: 75%;}
-      .star_6 {top: 74%;}
+
+      .star_9 {top: 90%;}
+      .star_6 {top: 86%;}
+      .remotecontroller {
+        width: 24%;}
+        .ant {
+
+                top: 20%;
+                left: 38%;
+          }
+        .head {
+
+            top: 20%;
+            left: 38%;
+        }
+        .arm {
+
+          top: 20%;
+          left: 38%;
+        }
+        .hand {
+
+          top: 20%;
+          left: 38%;
+        }
+        .leg {
+
+          top: 20%;
+          left: 38%;
+        }
+        .muravei5 { top: 96%;}
+        .muravei9 { top: 95%;}
+        .muravei6 { top: 70%;}
+        .muravei7 { top: 98%;}
+        .muravei8 { top: 78%;}
+        .muravei9 { top: 96%;}
+        .muravei { top: 30%;}
+        .muravei1 { top: 13%;}
+        .muravei2 { top: 24%;}
+        .muravei3 { top: 15%;}
+        .muravei4 { top: 10%;}
+        @keyframes light2 {
+        0% {transform: rotate(0deg);
+        height: 150%;}
+        10% {opacity: 0%;
+        height: 150%;}
+        20% {transform: rotate(-20deg);
+        left: 70%;
+        height: 150%;}
+        30% {opacity: 0%;
+        height: 150%;}
+        40% {transform: rotate(-30deg);
+        left: 40%;
+        height: 150%;}
+        }
+        @keyframes light1 {
+        0% {transform: rotate(0deg);
+        height: 112%;}
+        10% {
+        opacity: 0%;}
+        20% {transform: rotate(20deg);
+        left: 60%;
+        height: 112%;}
+        30% {opacity: 0%;
+        height: 112%;}
+        40% {transform: rotate(30deg);
+        left: 40%;
+        height: 112%;}
+        }
+        .blurr {width: 77%; left: 23.9%;}
+        .round1_1 {left: 32%;}
+        .round1_2 {left: 33%;}
+        .round1_3 {left: 32%;}
+        .round1_4 {left: 33%;}
+        .round6_1 {left: 35%;}
+        .round6_2 {left: 30%;}
+        .round6_3 {left: 35%;}
+        @keyframes bl6 {
+           from {
+             transform: scale(1);
+           }
+           30% {
+             left: 33%; top: 10%;
+           }
+           50% {
+             transform: scale(0.6);
+           }
+           70% {
+             left: 50%; top: 40%;
+           }
+           to {
+             transform: scale(1);
+         }
+         }
+         .text h1 {font-size: 34px; top: 50%; left:30%; width: 65%;}
+         .text p {font-size: 16px; top: 90%; left: 30%; width: 55%}
+         .light {width: 18%; height: 150%; top: 0%; left: 80%;}
+         .light1 {width: 18%; height: 150%; top: 0%; left: 30%;}
+         .round3_1 {
+           top: 70%;}
+           .round3_2 {
+             top: 72%;}
+             @keyframes bl3 {
+                from {
+                  transform: scale(1);
+                }
+                50% {
+                  left: 30%;
+                  top: 50%;
+                  }
+                  {
+                  transform: scale(0.8);
+                }
+                70% {
+                  left: 40%;
+                  top: 80%;
+                }
+                to {
+                  transform: scale(1);
+              }
+              }
     }
 @media all and (max-width: 1280px) and (min-width:800px){
   .blurr {width: 82.1%; left: 17.9%;}
