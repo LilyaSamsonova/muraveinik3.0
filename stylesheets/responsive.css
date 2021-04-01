@@ -323,7 +323,7 @@
 .muravei8 { top: 80%;}
 .light1{ height: 100%;}
     @media all and (max-width:1024px) and (orientation:portrait) {
-
+.remotecontroller { display: none;}
       .ant {
               width: 47%;
               height: 84%;
