@@ -1,4 +1,238 @@
-@media all and (max-width: 1792px){}
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+  /* MacBook Pro 2020 15"*/
+.blurr {left: 19.8%;}
+.remotecontroller {width: 20%;}
+.text h1 {width: 63%;}
+.text p {font-size: 24px; top: 85%;}
+
+.text1 {top: 10%;}
+.text4 {top: 73%;}
+.text5 {top: 70%;}
+.text6 {top: 68%;}
+.text12 {top: 45%; left: 40%;}
+.light1 {left: 21.9%;}
+}
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+  /* MacBook Pro 2020*/
+.remotecontroller {width: 20.5%;}
+
+.text4 {top: 63%;}
+.text5 {top: 65%;}
+.text6 {top: 64%;}
+ }
+ @media only screen and (min-width: 1366px) and (max-width: 1440px) {
+
+
+  }
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  /* Macbook Air 11.6" */
+  .remotecontroller {width: 23.9%;}
+  .light1 {left: 26%; height: 130%;}
+  .text1 {left: 26%;}
+  .text3 {top: 55%;}
+  .text4 {top: 87%;}
+  .text5 {top: 70%;}
+  .text6 {top: 85%;}
+  .text10 {left: 27%;}
+  .text12 {left: 55%; top: 29%;}
+  .star_9 {top: 90%;}
+  .star_6 {top: 86%;}
+  .star_5 {left: 27%;}
+  .ant {top: 15%;left: 38%;}
+  .head {top: 15%;left: 38%;}
+  .arm {top: 15%;left: 38%;}
+  .hand {top: 15%;left: 38%;}
+  .leg {top: 15%;left: 38%;}
+  .round1_1 {left: 27%;}
+  .round1_2 {left: 27%;}
+  .round1_3 {left: 29%;}
+  .round1_4 {left: 27%;}
+  .round6_1 {left: 25%;}
+  .round6_2 {left: 28%;}
+  .round6_3 {left: 29%;}
+  @keyframes bl6 {
+     from {
+       transform: scale(1);
+     }
+     30% {
+       left: 33%; top: 10%;
+     }
+     50% {
+       transform: scale(0.6);
+     }
+     70% {
+       left: 50%; top: 40%;
+     }
+     to {
+       transform: scale(1);
+   }
+   }
+   @keyframes bl1 {
+      0% {
+        transform: scale(1);
+        ;
+      }
+      30% {
+        top: 80%;
+      }
+      50% {
+        left: 50%; top: 60%;
+        }
+        {
+        transform: scale(0.9);
+      }
+      70% {
+        top: 90%;
+      }
+      100% {
+        transform: scale(1);
+    }
+    }
+
+
+ }
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* iPad Portrait */
+.remotecontroller { width: 100vw; height: 50%; background: url( '../images/пульт1.svg'); top: 164%;}
+.bt1 {width: 9.6549479%; height: 30.3781392%; left: 5%; top: 15%;}
+.bt2 {width: 9.6549479%; height: 30.3781392%; left: 5%; top: 60%;}
+.bthead {width: 9.6549479%; height: 30.3781392%; left: 70%; top: 15%;}
+.btarm {width: 9.6549479%; height: 30.3781392%; left: 85%; top: 15%;}
+.bthand {width: 9.6549479%; height: 30.3781392%; left: 85%; top: 60%;}
+.btleg {width: 9.6549479%; height: 30.3781392%; left: 70%; top: 60%;}
+.bttext {width: 9.6549479%; height: 30.3781392%; left: 20%; top: 60%;}
+.btinfo {width: 9.6549479%; height: 30.3781392%; left: 20%; top: 15%;}
+.round1_1 {left: 0%;top: 0%;}
+.round1_2 {left: 2%;top: 1%;}
+.round1_3 {left: 3%;top: 0%;}
+.round1_4 {left: 1%;top: 3%;}
+ @keyframes bl1 {
+    0% {transform: scale(1);}
+    30% {top: 20%;}
+    50% {left: 70%; top: 40%; transform: scale(0.9);}
+    70% {top: 60%;}
+    100% {transform: scale(1);}
+  }
+  .round4_1 {left: 0%; top: 73%;}
+  .round4_2 {left: 0%; top: 76%;}
+  .round4_3 {left: 3%; top: 70%;}
+  @keyframes bl4 {
+     from {
+       transform: scale(1);
+     }
+     50% {
+       left: 30%;
+       top: 30%;
+       }
+       {
+       transform: scale(0.8);
+     }
+     70% {
+       left: 20%;
+       top: 50%;
+     }
+     to {
+       transform: scale(1);
+   }
+   }
+   .round2_1 {left: 70%; top: 0%;}
+   .round2_2 {left: 68%; top: 3%;}
+   .round2_3 {left: 65%; top: 2%;}
+   @keyframes bl2 {
+      from {
+        transform: scale(1);
+      }
+      50% { top: 50%;}
+      {
+        transform: scale(1.1);
+      }
+      to {
+        transform: scale(1);
+    }
+    }
+    .round3_1 {
+      top: 41%; left: 40%;}
+      .round3_2 {
+        top: 40%; left: 40%;}
+        @keyframes bl3 {
+           from {
+             transform: scale(1);
+           }
+           50% {
+             left: 35%;
+             top: 34%;
+             }
+             {
+             transform: scale(0.8);
+           }
+           70% {
+             left: 13%;
+             top: 30%;
+           }
+           to {
+             transform: scale(1);
+         }
+         }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* промежуток */
+
+
+
+ }
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+  /* iPhone X */
+
+
+
+ }
+
+
+
+@media only screen  and (max-device-width: 375px)  {
+  /* iPhone SE */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media all and (max-width: 1792px){}
   @media all and (max-width: 1680px)and (min-width:1050px){
 .blurr {left: 19.8%;}
 .text p {top: 85%;}
@@ -118,7 +352,7 @@
         left: 40%;
         height: 112%;}
         } */
-        .blurr {width: 77%; left: 23.9%;}
+        /* .blurr {width: 77%; left: 23.9%;}
         .round1_1 {left: 32%;}
         .round1_2 {left: 33%;}
         .round1_3 {left: 32%;}
@@ -145,8 +379,7 @@
          }
          .text h1 {font-size: 34px; top: 50%; left:30%; width: 65%;}
          .text p {font-size: 16px; top: 90%; left: 30%; width: 55%}
-         /* .light {width: 18%; height: 150%; top: 0%; left: 80%;}
-         .light1 {width: 18%; height: 150%; top: 0%; left: 30%;} */
+
          .round3_1 {
            top: 70%;}
            .round3_2 {
@@ -219,7 +452,7 @@
           top: 10%;
           left: 38%;
         }
-  /* .light {width: 22.7%;  top: 0%; left: 80%;} */
+
 }
   @media all and (max-width: 1024px)  and (orientation:landscape) {
 
@@ -354,4 +587,4 @@
         top: 30%;
         left: 38%;
       }
-    }
+    }  */
