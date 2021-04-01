@@ -2,9 +2,54 @@
   @media all and (max-width: 1680px)and (min-width:1050px){
 .blurr {left: 19.8%;}
 .text p {top: 85%;}
+.light {display: none;}
+.light1 {background: #5DD7FD; width: 80%; left: 23%; opacity: 20%; animation: light2 .1s infinite ease-in-out; filter: blur(30px);}
+    @keyframes light2 {
+    0% {opacity: 20%;}
+    20% {opacity: 0%;}
+    30% {opacity: 20%;}
+    40% {opacity: 0%;}
+    50% {opacity: 20%;}
+    60% {opacity: 0%;}
+    70% {opacity: 20%;}
+    80% {opacity: 0%;}
+    90% {opacity: 20%;}
+    100% {opacity: 0%;}
+      }
+  }
+  @media all and (max-width: 1440px) and (min-width:900px){
+    .blurr {left: 18.1%;}
+    .text p {top: 80%;}
+    .light {display: none;}
+    .light1 {background: #5DD7FD; width: 80%; left: 23%; opacity: 20%; animation: light2 .1s infinite ease-in-out; filter: blur(30px);}
+        @keyframes light2 {
+        0% {opacity: 20%;}
+        20% {opacity: 0%;}
+        30% {opacity: 20%;}
+        40% {opacity: 0%;}
+        50% {opacity: 20%;}
+        60% {opacity: 0%;}
+        70% {opacity: 20%;}
+        80% {opacity: 0%;}
+        90% {opacity: 20%;}
+        100% {opacity: 0%;}
+          }
   }
     @media all and (max-width: 1366px) and (min-width:768px){
-
+      .light {display: none;}
+      .light1 {background: #5DD7FD; width: 80%; height: 120%; left: 25%; opacity: 20%; animation: light2 .1s infinite ease-in-out; filter: blur(30px);}
+          @keyframes light2 {
+          0% {opacity: 20%;}
+          20% {opacity: 0%;}
+          30% {opacity: 20%;}
+          40% {opacity: 0%;}
+          50% {opacity: 20%;}
+          60% {opacity: 0%;}
+          70% {opacity: 20%;}
+          80% {opacity: 0%;}
+          90% {opacity: 20%;}
+          100% {opacity: 0%;}
+            }
       .star_9 {top: 90%;}
       .star_6 {top: 86%;}
       .remotecontroller {
@@ -42,10 +87,10 @@
         .muravei9 { top: 96%;}
         .muravei { top: 30%;}
         .muravei1 { top: 13%;}
-        .muravei2 { top: 24%;}
+        .muravei2 { top: 22%;}
         .muravei3 { top: 15%;}
         .muravei4 { top: 10%;}
-        @keyframes light2 {
+        /* @keyframes light2 {
         0% {transform: rotate(0deg);
         height: 150%;}
         10% {opacity: 0%;
@@ -72,7 +117,7 @@
         40% {transform: rotate(30deg);
         left: 40%;
         height: 112%;}
-        }
+        } */
         .blurr {width: 77%; left: 23.9%;}
         .round1_1 {left: 32%;}
         .round1_2 {left: 33%;}
@@ -100,8 +145,8 @@
          }
          .text h1 {font-size: 34px; top: 50%; left:30%; width: 65%;}
          .text p {font-size: 16px; top: 90%; left: 30%; width: 55%}
-         .light {width: 18%; height: 150%; top: 0%; left: 80%;}
-         .light1 {width: 18%; height: 150%; top: 0%; left: 30%;}
+         /* .light {width: 18%; height: 150%; top: 0%; left: 80%;}
+         .light1 {width: 18%; height: 150%; top: 0%; left: 30%;} */
          .round3_1 {
            top: 70%;}
            .round3_2 {
@@ -127,7 +172,7 @@
               }
     }
 @media all and (max-width: 1280px) and (min-width:800px){
-  .blurr {width: 82.1%; left: 17.9%;}
+  .blurr {width: 82.1%; left: 19.8%;}
   .text h1 {font-size: 36px; top: 35%; left: 24%;}
   .text p {font-size: 18px; top: 80%; left: 24%;}
   .muravei5 { top: 60%;}
@@ -135,7 +180,46 @@
   .muravei6 { top: 65%;}
   .muravei7 { top: 60%;}
   .muravei8 { top: 59%;}
-  .light {width: 22.7%;  top: 0%; left: 80%;}
+  .light {display: none;}
+  .light1 {background: #5DD7FD; width: 80%; left: 23%; opacity: 20%; animation: light2 .1s infinite ease-in-out; filter: blur(30px);}
+      @keyframes light2 {
+      0% {opacity: 20%;}
+      20% {opacity: 0%;}
+      30% {opacity: 20%;}
+      40% {opacity: 0%;}
+      50% {opacity: 20%;}
+      60% {opacity: 0%;}
+      70% {opacity: 20%;}
+      80% {opacity: 0%;}
+      90% {opacity: 20%;}
+      100% {opacity: 0%;}
+        }
+        .ant {
+
+                top: 10%;
+                left: 38%;
+          }
+        .head {
+
+            top: 10%;
+            left: 38%;
+        }
+        .arm {
+
+          top: 10%;
+          left: 38%;
+        }
+        .hand {
+
+          top: 10%;
+          left: 38%;
+        }
+        .leg {
+
+          top: 10%;
+          left: 38%;
+        }
+  /* .light {width: 22.7%;  top: 0%; left: 80%;} */
 }
   @media all and (max-width: 1024px)  and (orientation:landscape) {
 
@@ -237,8 +321,7 @@
 .muravei6 { top: 79%;}
 .muravei7 { top: 75%;}
 .muravei8 { top: 80%;}
-.light {width: 22%; height: 130%; top: 0%; left: 78%;}
-.light1 {width: 22%; height: 130%; top: -3%; left: 24%;}
+.light1{ height: 100%;}
     @media all and (max-width:1024px) and (orientation:portrait) {
 
       .ant {
