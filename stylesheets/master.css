@@ -619,8 +619,8 @@ animation-play-state: paused;
      .text h1{
 
        top: 35%;
-       left: 25%;
-       width: 70%;
+       left: 23%;
+       width: 73%;
        font-size: 44px;
        line-height: 113.9%;
        position: absolute;
@@ -633,7 +633,7 @@ animation-play-state: paused;
        .text p{
 
          top: 80%;
-         left: 25%;
+         left: 23%;
          width: 55%;
          font-size: 20px;
          line-height: 107.4%;
