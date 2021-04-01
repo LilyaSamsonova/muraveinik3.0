@@ -195,32 +195,27 @@
       }
       }
 .ant {
-        width: 47%;
-        height: 84%;
+
         top: 15%;
         left: 38%;
   }
 .head {
-  width: 47%;
-  height: 84%;
+
     top: 15%;
     left: 38%;
 }
 .arm {
-  width: 47%;
-  height: 84%;
+
   top: 15%;
   left: 38%;
 }
 .hand {
-  width: 47%;
-  height: 84%;
+;
   top: 15%;
   left: 38%;
 }
 .leg {
-  width: 47%;
-  height: 84%;
+  
   top: 15%;
   left: 38%;
 }
