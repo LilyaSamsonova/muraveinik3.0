@@ -89,7 +89,31 @@
         transform: scale(1);
     }
     }
+    .ant {
 
+            top: 20%;
+            left: 38%;
+      }
+    .head {
+
+        top: 20%;
+        left: 38%;
+    }
+    .arm {
+
+      top: 20%;
+      left: 38%;
+    }
+    .hand {
+
+      top: 20%;
+      left: 38%;
+    }
+    .leg {
+
+      top: 20%;
+      left: 38%;
+    }
 
  }
 
