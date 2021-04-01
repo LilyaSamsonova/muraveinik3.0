@@ -1,6 +1,7 @@
 @media all and (max-width: 1792px){}
   @media all and (max-width: 1680px)and (min-width:1050px){
-
+.blurr {left: 19.8%;}
+.text p {top: 85%;}
   }
     @media all and (max-width: 1366px) and (min-width:768px){
 
@@ -215,7 +216,7 @@
   left: 38%;
 }
 .leg {
-  
+
   top: 15%;
   left: 38%;
 }
