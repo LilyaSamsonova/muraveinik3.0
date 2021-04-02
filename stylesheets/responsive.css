@@ -42,8 +42,48 @@
 
    }
 
+@media only screen and (min-width: 1050px) and (max-width: 1279px) {
+  .remotecontroller {width: 32%;}
+  .blurr {left: 30.9%;}
+  .text h1 {font-size: 34px; left: 33%; top: 45%; width: 60%;}
+  .text p {font-size: 18px; width: 64%; left: 33%; top: 90%;}
+  .muravei5 {top: 100%; left: 35%;}
+  .muravei6 {top: 120%; left: 45%;}
+  .muravei7 {top: 112%; left: 60%;}
+  .muravei8 {top: 103%; left: 90%;}
+  .star_9 {top: 90%;}
+  .star_6 {top: 102%; left: 38%;}
+  .star_5 {left: 34%;}
+  .star_1 {left: 38%;}
+  .round1_1 {left: 35%;}
+  .round1_2 {left: 38%;}
+  .round1_3 {left: 34%;}
+  .round1_4 {left: 38%;}
+  .round6_1 {left: 38%;}
+  .round6_2 {left: 34%;}
+  .round6_3 {left: 38%;}
+  @keyframes bl6 {
+     from {
+       transform: scale(1);
+     }
+     30% {
+       left: 37%; top: 10%;
+     }
+     50% {
+       transform: scale(0.6);
+     }
+     70% {
+       left: 50%; top: 40%;
+     }
+     to {
+       transform: scale(1);
+   }
+   }
+   .round5_1 {left: 40%;}
+   .round5_2 {left: 46%;}
+   .round5_3 {left: 80%;}
 
-@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+@media only screen and (min-width: 1024px) and (max-width: 1050px) {
   /* Macbook Air 11.6" */
   .blurr {left: 23.8%;}
   .text h1 {font-size: 34px; left: 26%; top: 45%;}
