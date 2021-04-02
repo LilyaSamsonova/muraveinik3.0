@@ -249,7 +249,7 @@ background-size: contain;
                      background-position: 0 0;
                      background-size: auto 100% ;
                    }
-                   .light1 {position: absolute; top: 0%; height: 108%; background: #5DD7FD; width: 80%; left: 23%; opacity: 20%; animation: light2 .1s infinite ease-in-out; filter: blur(30px);}
+                   .light1 {position: absolute; top: 0%; height: 108%; background: #5DD7FD; width: 80%; left: 23%; opacity: 20%; animation: light2 .8s infinite ease-in-out; filter: blur(30px);}
                        @keyframes light2 {
                        0% {opacity: 20%;}
                        20% {opacity: 0%;}
