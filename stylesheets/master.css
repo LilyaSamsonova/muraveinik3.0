@@ -61,7 +61,7 @@ left: 10%;
 top: 39%;
 position: absolute;
 display: block;
-cursor: pointer;
+cursor: pointer !important;
 background: url("../images/bt1.svg");
 background-size: contain;
 background-repeat: no-repeat;
