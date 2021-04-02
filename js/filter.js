@@ -54,7 +54,27 @@ let arm1 = 0;
         $( function() {
             $( ".text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12" ).draggable();
           } );
+
+          $('.remotecontroller').on('click', function(){
+            $('#audio')[0].play()
+          });
+
+          $('.leg').click(function () {
+            $('#audio')[0].pause();
+            });
 });
+
+// $('.bt2').on('click', function(){
+// $('#audio')[0].play();}
+//
+// if(counter == 45){
+//      $('.vtoroykanal').css("visibility","visible");
+//      $('#audio')[0].play();
+//   }else{
+//     $('.vtoroykanal').css("visibility","hidden");
+//    $('#audio')[0].pause();
+//   }
+
 // $(document).ready(function(){
 //
 // function activateFilterAnimation() {
