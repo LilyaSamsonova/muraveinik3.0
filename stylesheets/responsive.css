@@ -27,7 +27,14 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   /* Macbook Air 11.6" */
-  .remotecontroller {width: 23.9%;}
+  .blurr {left: 23.8%;}
+  .text h1 {font-size: 34px; left: 26%; top: 45%;}
+  .text p {left: 26%; top: 70%; top: 100%;}
+  .muravei5 {top: 70%;}
+  .muravei6 {top: 78%;}
+  .muravei7 {top: 76%;}
+  .muravei8 {top: 80%;}
+  .remotecontroller {width: 24%;}
   .light1 {left: 26%; height: 130%;}
   .text1 {left: 26%;}
   .text3 {top: 55%;}
@@ -119,7 +126,7 @@
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   /* iPad Portrait */
 .remotecontroller { width: 100vw; height: 50%; background: url( '../images/пульт1.svg'); top: 164%;}
 .bt1 {width: 9.6549479%; height: 30.3781392%; left: 5%; top: 15%;}
@@ -144,24 +151,16 @@
   .round4_1 {left: 0%; top: 73%;}
   .round4_2 {left: 0%; top: 76%;}
   .round4_3 {left: 3%; top: 70%;}
+  .muravei9 {top: 120%; left: 80%;}
+  .muravei, .muravei1, .muravei2, .muravei3, .muravei4, .muravei5, .muravei6, .muravei7, .muravei8, .muravei10 {display: none;}
   @keyframes bl4 {
-     from {
-       transform: scale(1);
-     }
-     50% {
-       left: 30%;
-       top: 30%;
-       }
-       {
-       transform: scale(0.8);
-     }
-     70% {
-       left: 20%;
-       top: 50%;
+     from {transform: scale(1);}
+     50% {left: 30%;top: 30%;}
+       {transform: scale(0.8);}
+     70% {left: 20%;top: 50%;
      }
      to {
-       transform: scale(1);
-   }
+     transform: scale(1);}
    }
    .round2_1 {left: 70%; top: 0%;}
    .round2_2 {left: 68%; top: 3%;}
@@ -201,7 +200,36 @@
              transform: scale(1);
          }
          }
+         .blurr {height: 164%; left: 0%; width: 100%; top:0%}
+         .text h1 { left: 7%; width: 85%; font-size: 34px;}
+         .text p { left: 7%; width: 85%; font-size: 14px; top: 150%;}
+         .ant {top: 40%;left: 28%;}
+         .head {top: 40%;left: 28%;}
+         .arm {top: 40%;left: 28%;}
+         .hand {top: 40%;left: 28%;}
+         .leg {top: 40%;left: 28%;}
+         .star_6 {top: 120%;left: 5%;}
+         .star_5 {top: 70%;left: 20%;}
+         .star_8 {top: 36%;left: 33%;}
+         .star_1 {top: 13%;left: 13%;}
+         .star_9 {top: 130%;left: 80%;}
+         .star_2 {top: 76%;}
+         .star_3 {top: 40%;left: 70%;}
+         .star_4 {top: 20%;}
+         .light1 {height: 160%; left: 0%; width: 100%; top:0%}
+         .text1 {left: 3%;}
+         .text3 {top: 70%;}
+         .text4 {top: 110%; left: 10%;}
+         .text5 {top: 120%;}
+         .text6 {top: 95%;}
+         .text10 {top: 90%; left: 18%;}
+         .text8 {top: 55%; left: 78%;}
+         .text12 {top: 55%; left: 25%;}
+         .text11 {top: 25%; left: 60%;}
+
+
 }
+
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   /* промежуток */
@@ -213,18 +241,100 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
-
-
-
+.remotecontroller { width: 100vw; height: 101%; background: url( '../images/пульт3.svg'); top: 250%;}
+.bt1 {width: 18.603125%; height: 39.4238411%; left: 8%; top: 52%;}
+.bt2 {display: none;}
+.bthead {display: none;}
+.btarm {width: 18.603125%; height: 39.4238411%; left: 8%; top: 10%;}
+.bthand {width: 18.603125%; height: 39.4238411%; left: 77%; top: 10%;}
+.btleg {width: 18.603125%; height: 39.4238411%; left: 42%; top: 10%;}
+.bttext {display: none;}
+.btinfo {width: 18.603125%; height: 39.4238411%; left: 77%; top: 52%;}
+.round3_1 {display: none;}
+.round3_2 {display: none;}
+.round4_1 {display: none;}
+.round4_2 {left: 0%; top: 9%;}
+.round4_3 {left: 3%; top: 6%;}
+.round1_1 {display: none;}
+.round1_2 {display: none;}
+.round1_3 {display: none;}
+.round1_4 {display: none;}
+@keyframes bl4 {
+   from {transform: scale(1);}
+   50% {left: 100%;top: 10%;}
+     {transform: scale(0.8);}
+   70% {left: 1%;top: 13%;}
+   to {transform: scale(1);}}
+   .muravei, .muravei1, .muravei2, .muravei3, .muravei4, .muravei5, .muravei6, .muravei7, .muravei8, .muravei10 {display: none;}
+   .muravei9 {top: 190%; left: 36%;}
+   .text h1 {font-size: 12px; left: 5%; width: 96%; top: 40%;}
+   .text p {display: none;}
+   .blurr {width: 101%; left: 0%; height: 250%; }
+   .ant {top: 65%;left: 25%;}
+   .head {top: 65%;left: 25%;}
+   .arm {top: 65%;left: 25%;}
+   .hand {top: 65%;left: 25%;}
+   .leg {top: 65%;left: 25%;}
+   .star_6 {top: 190%;left: 5%; transform: scale(0.5);}
+   .star_5 {top: 90%;left: 12%; transform: scale(0.5);}
+   .star_8 {top: 36%;left: 33%; transform: scale(0.5);}
+   .star_1 {top: 10%;left: 7%; transform: scale(0.5);}
+   .star_9 {top: 150%;left: 80%;transform: scale(0.5);}
+   .star_2 {top: 76%; transform: scale(0.5);}
+   .star_3 {top: 200%;left: 50%; transform: scale(0.5);}
+   .star_4 {top: 20%; transform: scale(0.5); left: 60%;}
+   .star_7 {top: 10%; transform: scale(0.5); left: 80%;}
  }
 
 
 
-@media only screen  and (max-device-width: 375px)  {
+@media only screen  and (max-device-width: 374px)  {
   /* iPhone SE */
-
-
-
+.remotecontroller { width: 100vw; height: 74%; background: url( '../images/пульт2.svg'); top: 210%;}
+.blurr {width: 100%; left: 0%; height: 209.9%; }
+.bt1 {width: 18.603125%; height: 39.4238411%; left: 8%; top: 52%;}
+.bt2 {display: none;}
+.bthead {display: none;}
+.btarm {width: 18.603125%; height: 39.4238411%; left: 8%; top: 10%;}
+.bthand {width: 18.603125%; height: 39.4238411%; left: 77%; top: 10%;}
+.btleg {width: 18.603125%; height: 39.4238411%; left: 42%; top: 10%;}
+.bttext {display: none;}
+.btinfo {width: 18.603125%; height: 39.4238411%; left: 77%; top: 52%;}
+.round3_1 {display: none;}
+.round3_2 {display: none;}
+.round4_1 {display: none;}
+.round4_2 {left: 0%; top: 9%;}
+.round4_3 {left: 3%; top: 6%;}
+.round1_1 {display: none;}
+.round1_2 {display: none;}
+.round1_3 {display: none;}
+.round1_4 {display: none;}
+@keyframes bl4 {
+   from {transform: scale(1);}
+   50% {left: 100%;top: 10%;}
+     {transform: scale(0.8);}
+   70% {left: 1%;top: 13%;}
+   to {transform: scale(1);}}
+   .ant {top: 60%;left: 25%;}
+   .head {top: 60%;left: 25%;}
+   .arm {top: 60%;left: 25%;}
+   .hand {top: 60%;left: 25%;}
+   .leg {top: 60%;left: 25%;}
+   .star_6 {top: 150%;left: 5%; transform: scale(0.5);}
+   .star_5 {top: 70%;left: 12%; transform: scale(0.5);}
+   .star_8 {top: 36%;left: 33%; transform: scale(0.5);}
+   .star_1 {top: 10%;left: 7%; transform: scale(0.5);}
+   .star_9 {top: 130%;left: 80%;transform: scale(0.5);}
+   .star_2 {top: 76%; transform: scale(0.5);}
+   .star_3 {top: 160%;left: 50%; transform: scale(0.5);}
+   .star_4 {top: 20%; transform: scale(0.5); left: 60%;}
+   .star_7 {top: 10%; transform: scale(0.5); left: 80%;}
+   @keyframes star_2 {
+   from {transform: scale(0.5);}50% {transform: scale(0.8);}to {transform: scale(0.5);}}
+   .muravei, .muravei1, .muravei2, .muravei3, .muravei4, .muravei5, .muravei6, .muravei7, .muravei8, .muravei10 {display: none;}
+   .muravei9 {top: 130%; left: 36%;}
+   .text h1 {font-size: 12px; left: 5%; width: 90%; top: 40%;}
+   .text p {display: none;}
 }
 
 
