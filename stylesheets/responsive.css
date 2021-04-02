@@ -11,6 +11,8 @@
 .text6 {top: 68%;}
 .text12 {top: 45%; left: 40%;}
 .light1 {left: 21.9%;}
+.light {left: 21.9%;}
+
 }
 @media only screen and (min-width: 1440px) and (max-width: 1679px) {
   /* MacBook Pro 2020*/
@@ -19,13 +21,22 @@
 .text4 {top: 63%;}
 .text5 {top: 65%;}
 .text6 {top: 64%;}
+
  }
  @media only screen and (min-width: 1366px) and (max-width: 1440px) {
 
 
   }
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  @media only screen and (min-width: 1280px) and (max-width: 1366px) {
+.blurr {left: 17.9%;}
+.text h1 {font-size: 40px;}
+.text p {font-size: 16px;}
+.muravei7 {top: 60%;}
+.star_9 {top: 72%;}
+.star_6 {top: 75%;}
+.light {left: 20%;}
+.light1 {left: 20%;}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
   /* Macbook Air 11.6" */
   .blurr {left: 23.8%;}
   .text h1 {font-size: 34px; left: 26%; top: 45%;}
@@ -217,6 +228,7 @@
          .star_3 {top: 40%;left: 70%;}
          .star_4 {top: 20%;}
          .light1 {height: 160%; left: 0%; width: 100%; top:0%}
+         .light {height: 160%; left: 0%; width: 100%; top:0%}
          .text1 {left: 3%;}
          .text3 {top: 70%;}
          .text4 {top: 110%; left: 10%;}
