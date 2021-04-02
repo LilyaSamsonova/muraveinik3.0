@@ -262,6 +262,19 @@ background-size: contain;
                        90% {opacity: 20%;}
                        100% {opacity: 0%;}
                          }
+                         .light {position: absolute; top: 0%; height: 108%; background: #FFF500; width: 80%; left: 23%; opacity: 20%; animation: light2 2s infinite ease-in-out; filter: blur(30px);}
+                             @keyframes light2 {
+                             0% {opacity: 0%;}
+                             20% {opacity: 20%;}
+                             30% {opacity: 0%;}
+                             40% {opacity: 20%;}
+                             50% {opacity: 0%;}
+                             60% {opacity: 20%;}
+                             70% {opacity: 0%;}
+                             80% {opacity: 20%;}
+                             90% {opacity: 0%;}
+                             100% {opacity: 20%;}
+                               }
 
                    /* .light {
                    width: 16%;
