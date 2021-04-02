@@ -42,7 +42,7 @@
 
    }
 
-@media only screen and (min-width: 1050px) and (max-width: 1279px) {
+/* @media only screen and (min-width: 1050px) and (max-width: 1279px) {
   .remotecontroller {width: 32%;}
   .blurr {left: 30.9%;}
   .text h1 {font-size: 34px; left: 33%; top: 45%; width: 60%;}
@@ -81,9 +81,9 @@
    }
    .round5_1 {left: 40%;}
    .round5_2 {left: 46%;}
-   .round5_3 {left: 80%;}
+   .round5_3 {left: 80%;} */
 
-@media only screen and (min-width: 1024px) and (max-width: 1050px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
   /* Macbook Air 11.6" */
   .blurr {left: 23.8%;}
   .text h1 {font-size: 34px; left: 26%; top: 45%;}
